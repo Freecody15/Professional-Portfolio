@@ -1,37 +1,61 @@
-.logo-container {
-    z-index: 0;
-    width: 595px;
-    height: 970px;
-    opacity: 0;
-    position: absolute;
-    top: 25%;
-    right: 5%;
-    bottom: 0;
-    left: auto;
-    margin: auto;
+:root {
+    --drop-height: 200px;
+    --logo-size: 220px;
+    --offset: 20px;
+    --shadow-height: 8px;
+}
 
-    svg {
-        width: 100%;
-        height: auto;
-        bottom: 0;
-        transform: rotateZ(20deg) !important;
+.logo-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.solid-logo {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border-radius: 100%;
+    position: absolute;
+    top: var(--offset);
+    left: calc(50% - var(--logo-size)/2);
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    animation-iteration-count: infinite;
+}
+
+
+.shadow {
+    width: var(--logo-size);
+    height: var(--shadow-height);
+    background: radial-gradient(50% 50%, rgba(150, 150, 150, 1), rgba(150, 150, 150, 0.05));
+    position: absolute;
+    top: calc(var(--offset) + var(--drop-height) + var(--logo-size) - -11 * var(--shadow-height));
+    left: calc(50% - var(--logo-size)/1.7);
+    animation-name: grow;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0) scale(1);
     }
 
-    .solid-logo {
-        position: absolute;
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: 0;
-        margin: auto;
-        width: 100%;
-        opacity: 0;
-        transform: rotateZ(20deg) !important;
-        z-index: 1;
+    to {
+        transform: translateY(var(--drop-height)) scale(1, 0.7);
     }
 }
 
-.svg-container {
-    stroke: #ffd700;
-    stroke-width: 10;
+@keyframes grow {
+    from {
+        transform: scale(.2, 0.5);
+    }
+
+    to {
+        transform: scale(1.5, 0.8);
+    }
 }
