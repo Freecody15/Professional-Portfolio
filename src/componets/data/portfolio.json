@@ -1,0 +1,22 @@
+{
+    "portolio": [
+        {
+            "cover": "/portfolio/work/Pokedex.png",
+            "title": "Pokedex",
+            "description": "Within this project, I was responsible for the frontend. It’s written in mainly javascirpt, Additionally, I've created the HTML and CSS templates",
+            "url": "https://freecody15.github.io/Js-App-Pokedex/"
+        },
+        {
+            "cover": "./Pokedex.png",
+            "title": "First Portfolio",
+            "description": "Within this project, I was responsible for the frontend. It’s written in mainly Html5, with some css and javascript",
+            "url": "https://freecody15.github.io/Portfolio-Dakota/index.html"
+        },
+        {
+            "cover": "./Pokedex.png",
+            "title": "Pokedex",
+            "description": "types of code",
+            "url": "https:google.com"
+        }
+    ]
+}
