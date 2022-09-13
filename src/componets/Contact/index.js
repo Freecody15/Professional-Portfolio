@@ -45,7 +45,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in.
+                        To reach out to me please send a Message.
                     </p>
                     <div className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
