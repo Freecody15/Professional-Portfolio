@@ -54,7 +54,7 @@ const Contact = () => {
                                 </li>
                                 <li className="half">
                                     <input
-                                        placeholder="Email"
+                                        placeholder="Your Email"
                                         type="email"
                                         name="email"
                                         required
@@ -88,7 +88,7 @@ const Contact = () => {
                     United States,
                     <br />
                     Cumming Georgia, 30041<br />
-                    <span>Dakota_pope1996@hotmail.com</span>
+                    <span className='email-dakota'>Dakota_pope1996@hotmail.com</span>
                 </div>
                 <div className="google-map">
                     <iframe title="myLocoation" className='container' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4666.365972230547!2d-84.14171718472446!3d34.207209307450526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5858b3dfbd763%3A0xc6125a263da10677!2sVillage%20Burger!5e0!3m2!1sen!2sus!4v1663082537123!5m2!1sen!2sus" ></iframe>

@@ -76,14 +76,14 @@
 .google-map {
     background: rgba(8, 253, 216, 0.1);
     float: right;
-    width: 53%;
-    height: 115%;
-    margin-top: -6.0%;
+    width: 52%;
+    height: 90%;
+    margin-top: 2%;
 }
 
 .container {
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 100%;
     opacity: 0;
     animation: backInRight 1s 1.2s;
@@ -126,4 +126,5 @@
     .info-map {
         display: none;
     }
+
 }

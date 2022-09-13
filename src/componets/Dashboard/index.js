@@ -6,7 +6,7 @@ import Login from "../Login";
 const Dashboard = () => {
 
     const [user, setUser] = useState(null);
-    const auth = getAuth();
+    const Auth = getAuth();
 
     useEffect(() => {
         onAuthStateChanged(getAuth, (user) => {
