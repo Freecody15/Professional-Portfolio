@@ -7,14 +7,14 @@
             "url": "https://freecody15.github.io/Js-App-Pokedex/"
         },
         {
-            "cover": "./Pokedex.png",
+            "cover": "/portfolio/work/Portfolio.png",
             "title": "First Portfolio",
             "description": "Within this project, I was responsible for the frontend. It’s written in mainly Html5, with some css and javascript",
             "url": "https://freecody15.github.io/Portfolio-Dakota/index.html"
         },
         {
-            "cover": "./Pokedex.png",
-            "title": "Pokedex",
+            "cover": "/portfolio/work/Pokedex.png",
+            "title": "placeholder",
             "description": "types of code",
             "url": "https:google.com"
         }
