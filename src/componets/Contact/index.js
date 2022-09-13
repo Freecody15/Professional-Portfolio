@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -44,7 +45,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        To reach out to me please send a message.
+                        To reach out to me please send a Message.
                     </p>
                     <div className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
@@ -90,12 +91,18 @@ const Contact = () => {
                     Cumming Georgia, 30041<br />
                     <span>Dakota_pope1996@hotmail.com</span>
                 </div>
-                <div className="google-map">
-                    <iframe title="myLocoation" className='container' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4666.365972230547!2d-84.14171718472446!3d34.207209307450526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5858b3dfbd763%3A0xc6125a263da10677!2sVillage%20Burger!5e0!3m2!1sen!2sus!4v1663082537123!5m2!1sen!2sus" ></iframe>
+                <div className="map-wrap">
+                    <MapContainer center={[34.2042, -84.1343]} zoom={13}>
+                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                        <Marker position={[34.2042, -84.1343]}>
+                            <Popup>Dakota lives near here, come over for a cup of coffee :)</Popup>
+                        </Marker>
+                    </MapContainer>
                 </div>
             </div>
             <Loader type="pacman" />
         </>
     )
 }
+
 export default Contact
