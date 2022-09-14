@@ -1,5 +1,5 @@
 import './index.scss'
-
+// to set animations to come in a sequence
 const AnimatedLetters = ({ letterClass, strArray, idx }) => {
     return (
         <span>

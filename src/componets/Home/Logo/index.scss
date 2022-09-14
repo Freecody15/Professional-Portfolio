@@ -5,11 +5,11 @@
     --shadow-height: 8px;
 }
 
-.logo-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
+// .logo-container {
+//     width: 100%;
+//     height: 100%;
+//     position: relative;
+// }
 
 .solid-logo {
     width: var(--logo-size);
@@ -19,7 +19,7 @@
     top: var(--offset);
     left: calc(50% - var(--logo-size)/2);
     animation-name: bounce;
-    animation-duration: 1.0s;
+    animation-duration: 1.5s;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
     animation-iteration-count: infinite;
@@ -34,7 +34,7 @@
     top: calc(var(--offset) + var(--drop-height) + var(--logo-size) - -11 * var(--shadow-height));
     left: calc(50% - var(--logo-size)/1.7);
     animation-name: grow;
-    animation-duration: 1.0s;
+    animation-duration: 1.5s;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
     animation-iteration-count: infinite;
