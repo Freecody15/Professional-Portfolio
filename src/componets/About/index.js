@@ -36,9 +36,9 @@ const About = () => {
                         improving my-self one problem at a time.
                     </p>
                     <p>
-                        If I need to define myself in one sentence that would be a family
-                        person, I am happily married and a father of two beautiful daughters,
-                        a game fanatic, car enthusiast, and tech-obsessed.
+                        If I had to define myself in a few words it would be  that I am a
+                        man devoted to my family. I am happily married and have two beautiful
+                        daughters. I’m a game fanatic, car enthusiast, and tech-obsessed.
                     </p>
                 </div>
 

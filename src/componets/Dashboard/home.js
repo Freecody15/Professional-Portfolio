@@ -56,7 +56,7 @@ const Home = () => {
             alert('Failed to add portfolio');
         }
     }
-
+    // return how to submit file info for portfolio work utilizeing firebase Database 
     return (
         <div className="dashboard">
 

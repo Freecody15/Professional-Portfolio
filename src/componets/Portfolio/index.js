@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
-import portfolioData from '../../componets/data/portfolio.json';
-// import { getDocs, collection } from 'firebase/firestore';
+import { getDocs, collection } from 'firebase/firestore';
+import { db } from '../../firebase'
 import "./index.scss";
 // import { db } from '../../firebase';
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    console.log(portfolioData);  // setPortfolio] = useState([]);
+    const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -20,14 +20,17 @@ const Portfolio = () => {
         }
     });
 
-    // useEffect(() => {
-    //     getPortfolio();
-    // }, []);
+    useEffect(() => {
+        getPortfolio();
+    }, []);
 
-    // const getPortfolio = async () => {
-    //     const querySnapshot = await getDocs(collection(db, 'portfolio'));
-    //     setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
-    // }
+    const getPortfolio = async () => {
+        const querySnapshot = await getDocs(collection(db, 'portfolio'));
+        console.log(querySnapshot);
+        setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
+    }
+
+    console.log(portfolio);
 
     const renderPortfolio = (portfolio) => {
         return (
@@ -37,11 +40,11 @@ const Portfolio = () => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img
-                                    src={port.cover}
+                                    src={port.image}
                                     className="portfolio-image"
                                     alt="portfolio" />
                                 <div className="content">
-                                    <p className="title">{port.title}</p>
+                                    <p className="title">{port.name}</p>
                                     <h4 className="description">{port.description}</h4>
                                     <button
                                         className="btn"
@@ -67,7 +70,7 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
-                <div>{renderPortfolio(portfolioData.portolio)}</div>
+                <div>{renderPortfolio(portfolio)}</div>
             </div>
             <Loader type="pacman" />
         </>

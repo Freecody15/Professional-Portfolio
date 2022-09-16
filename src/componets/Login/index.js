@@ -1,10 +1,10 @@
-import { signInWithPopup } from "firebase/auth";
+import { signInWithGoogle } from "../../firebase";
 
 
 const Login = () => {
     return (
         <div className="dashboard">
-            <button onClick={signInWithPopup}>
+            <button onClick={signInWithGoogle}>
                 Sign in with google
             </button>
         </div>

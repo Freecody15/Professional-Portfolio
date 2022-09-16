@@ -22,12 +22,13 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 export const auth = getAuth();
 const provider = new GoogleAuthProvider();
-// Initialize Cloud Firestore and get a reference to the service
+export const signInWithGoogle = () => signInWithPopup(auth, provider);
 export const db = getFirestore(app);
 export const storage = getStorage(app);
+
 // const analytics = getAnalytics(app);
 
-export const signInWithGoogle = () => signInWithPopup(auth, provider);
 
