@@ -91,7 +91,7 @@ const Contact = () => {
                     <span className='email-dakota'>Dakota_pope1996@hotmail.com</span>
                 </div>
                 <div className="google-map">
-                    <iframe title="myLocoation" className='container' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4666.365972230547!2d-84.14171718472446!3d34.207209307450526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5858b3dfbd763%3A0xc6125a263da10677!2sVillage%20Burger!5e0!3m2!1sen!2sus!4v1663082537123!5m2!1sen!2sus" ></iframe>
+                    <iframe title="myLocoation" className='container' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26398.871120018324!2d-84.14204510451596!3d34.20108165650403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1663965802341!5m2!1sen!2sus"></iframe>
                 </div>
             </div>
             <Loader type="pacman" />

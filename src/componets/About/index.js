@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react'
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact, } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import imageA from '../../../src/assets/images/fam1.jpg'
+import imageB from '../../../src/assets/images/fam2.jpg'
+import imageC from '../../../src/assets/images/r1.jpg'
+import imageD from '../../../src/assets/images/porsche.jpg'
+import imageE from '../../../src/assets/images/truck.jpg'
+import imageF from '../../../src/assets/images/s2k.jpg'
 import './index.scss'
 
 
@@ -42,328 +46,15 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="stage-cube-cont">
-                    <div class='wrap'>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                        <div class='c'></div>
-                    </div>
-                    <div className="cubespinner">
-                        <div className="face1">
-                            <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-                        </div>
-                        <div className="face2">
-                            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-                        </div>
-                        <div className="face3">
-                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-                        </div>
-                        <div className="face4">
-                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-                        </div>
-                        <div className="face5">
-                            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-                        </div>
-                        <div className="face6">
-                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-                        </div>
+
+                <div class="container-carousel">
+                    <div class="carousel">
+                        <div class="item aa" style={{ backgroundImage: `url(${imageA})` }}></div>
+                        <div class="item ab" style={{ backgroundImage: `url(${imageD})` }}></div>
+                        <div class="item ac" style={{ backgroundImage: `url(${imageB})` }}></div>
+                        <div class="item ad" style={{ backgroundImage: `url(${imageE})` }}></div>
+                        <div class="item ae" style={{ backgroundImage: `url(${imageC})` }}></div>
+                        <div class="item af" style={{ backgroundImage: `url(${imageF})` }}></div>
                     </div>
                 </div>
             </div>
@@ -371,5 +62,6 @@ const About = () => {
         </>
     )
 }
+
 
 export default About
